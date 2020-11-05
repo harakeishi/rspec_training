@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: rspec_training_production
-  username: rspec_training
+  username: root
   password: <%= ENV['RSPEC_TRAINING_DATABASE_PASSWORD'] %>
